@@ -26,7 +26,7 @@ min-height:600px;
 #main .side_bar{
 	position:absolute;
 	width:200px;
-	height:900px;
+	height:3400px;
 	background-color:#f5f5f5;
 }
 
@@ -95,60 +95,38 @@ border-bottom:1px solid #e2e2e2;
 	position:relative;
 	left:250px;
 	width:750px;
-	height:600px;
-	overflow:hidden;
-	padding-top:40px;
+	top:0px;
+	margin-top:40px;
     padding-bottom:50px;
+    color:#333333;
 }
 
-#main .pic_box{
-	position:relative;
-	width:166px;
-	height:170px;
-	left:0px;
-	float:left;
-	margin-right:20px;
-	margin-bottom:0px;
-	
-}
+#main .content .essay h1{
+    font-size:20px;
+    font-weight:bold;
+    text-align:center;
+}  
 
-#main .box{
-   position:relative;
-    margin:0px auto;
-	width:166px;
-	height:180px;	
-	top:20px;
-	transition: 0.5s;
-	-moz-transition: 0.5s;
-	-webkit-transition: 0.5s;
-}
-
-#main .pic{
-	width:166px;
-	height:135px;
-	margin-top:10px;
-}
-
-#main .pic img{
-	box-shadow: 8px 8px 12px 0 rgba(0,0,0,0.60);
-}
-#main .pic_title{
-	position:relative;
-	width:150px;
-	height:20px;
-	top:-10px;
-	font-size:16px;
-	margin:0px auto;
+#main .content .extra_info{
+	color:#666666;
 	text-align:center;
-	padding-top:0px;
-
-}
-
-#main .pic_title a{
-	font-size:14px;
-}
-
-	
+	margin-top:40px;
+	font-size:12px;
+}	
  
+ #main .content .essay .extra_info .clicks, .source, .author, .type{
+ 	margin-left:20px;
+ }
 
+ #main .content .essay_body{
+ 	margin-top:40px;
+ 	font-size:14px;
+ 	padding-bottom:30px;
+ 	border-bottom:1px dotted #d2d2d2;
+ }
 
+ #main .content .essay_body p{
+ 	line-height:25px;
+ 	margin-top:8px;
+ 	text-align:28px;
+ }
