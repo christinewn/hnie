@@ -113,8 +113,8 @@ margin:50px 0;
 
 #main .pic_box{
 	position:relative;
-	width:165px;
-	height:180px;
+	width:166px;
+	height:170px;
 	left:0px;
 	float:left;
 	margin-right:20px;
@@ -125,7 +125,7 @@ margin:50px 0;
 #main .box{
    position:relative;
     margin:0px auto;
-	width:150px;
+	width:166px;
 	height:180px;	
 	top:20px;
 	transition: 0.5s;
@@ -134,22 +134,24 @@ margin:50px 0;
 }
 
 #main .pic{
-	width:150px;
-	height:140px;
+	width:166px;
+	height:135px;
 	margin-top:10px;
-	overflow: hidden;
 }
 
 #main .pic img{
-	box-shadow: 8px 8px 16px 0 rgba(0,0,0,0.80);
+	box-shadow: 8px 8px 12px 0 rgba(0,0,0,0.60);
 }
 #main .pic_title{
+	position:relative;
 	width:150px;
-	height:25px;
+	height:20px;
+	top:-10px;
 	font-size:16px;
 	margin:0px auto;
 	text-align:center;
 	padding-top:0px;
+
 }
 
 #main .pic_title a{
