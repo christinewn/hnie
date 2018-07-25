@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+<meta name="author" content="王娜 粟阳">
+<title>湖南工程学院计算机与通信学院</title>
+<link rel="stylesheet" type="text/css" href="../计算机与通信学院/css/common.css">
+<link rel="stylesheet" type="text/css" href="../计算机与通信学院/css/index.css">
+<link rel="stylesheet" type="text/css" href="#">
+<script src="https://libs.baidu.com/jquery/1.9.1/jquery.js"></script>
+    <script type="text/javascript" src="../计算机与通信学院/js/jquery-1.11.1.min.js"></script>
+	<script type="text/javascript" src="../计算机与通信学院/js/menu.js"></script>
+	<script type="text/javascript" src="../计算机与通信学院/js/slide_bar.js"></script>
+	<script type="text/javascript" src="../计算机与通信学院/js/quick_link.js"></script>
+	<script>
+		$(function() {
+			$('.main_top .change a').hover(function() {
+				var id = $(this).index();
+				$(this).addClass('hover').siblings().removeClass('hover');
+				$('.info .top_news:eq(' + id + ')').css('display', 'block').siblings('.top_news').css('display', 'none');
+				$('.info .news_list:eq(' + id + ') ').css('display', 'block').siblings('.news_list').css('display', 'none');
+			});
+		});
+	</script>
+</head>
+<body>
+	<!--头部-->
+	<script type="text/javascript">
+        curMenu = 1;
+        window.onload = displayCurrent;
+        $(function(){
+			$("#search").click(function(){
+				$("#form").submit();
+			});
+			//手机端菜单
+			$(".btn_phone").on("click",function () {
+				if (this.hasClass("close_phone")) {
+					this.removeClass("close_phone");
+					$("#top .menu").animate({
+					},200);
+				} else {
+					_this.addClass("close_phone");
+					$("#top .menu").animate({
+					},200);
+				}
+			});
+        });
+    </script>
+<div id="top">
+    <div class="top_box">
+<!--顶部-->
+        <div class="header">
+            <div class="logo">
+			    <a href="#">
+				<img src="../计算机与通信学院/img/top_logo.png">
+				</a>
+			</div>
+			<div class="link">
+			<a href="">在线咨询</a>
+			|
+			<a href="">机构设置</a>
+			|
+			<a href="">教师入口</a>
+			</div>
+			<div class="btn_phone"></div>
+			<div class="search">
+			    <form id="form" method="get" action="">
+				  <input id="name" class="input" name="name" type="text" value="输入关键字" onblur="if(this.value==''){this.value='输入关键字';$(this).css('color','#BBBBBB')}" onfocus="if(this.value=='输入关键字'){this.value='';$(this).css('color','#000000')}"
+			      style="color:rgb(187,187,187);">
+				  <img id="search" class="button" src="../计算机与通信学院/img/top_search.png">
+				</form>
+			</div>
+        </div>
+		<!--导航菜单-->
+		<div class="menu">
+		    <div class="menu_separator_box">
+			    <div class="menu_separator1">
+				  <img src="../计算机与通信学院/img/menu_separator.png">
+				</div>
+				<div class="menu_separator2">
+				  <img src="../计算机与通信学院/img/menu_separator.png">
+				</div>
+				<div class="menu_separator3">
+				  <img src="../计算机与通信学院/img/menu_separator.png">
+				</div>
+				<div class="menu_separator4">
+				  <img src="../计算机与通信学院/img/menu_separator.png">
+				</div>
+				<div class="menu_separator5">
+				  <img src="../计算机与通信学院/img/menu_separator.png">
+				</div>
+				<div class="menu_separator6">
+				  <img src="../计算机与通信学院/img/menu_separator.png">
+				</div>
+				<div class="menu_separator7">
+				  <img src="../计算机与通信学院/img/menu_separator.png">
+				</div>
+			</div>	
+			<div id="menu_red_bg" style="display:inline; left:-1;"></div>
+			<div class="menu_text_box">
+				<div class="menu_text" onmouseover="mouseOver(1)" onmouseout="mouseOut(1)">
+					<div class="text">
+						<a id="menu_text1" href="" style="color:rgb(2555,255,255);">网站首页</a>
+				    </div>
+				</div>
+				<div class="menu_text" onmouseover="mouseOver(2)" onmouseout="mouseOut(2)">
+					<div class="text">
+						<a id="menu_text2" href="" style="color:rgb(0,0,0);">关于我们</a>
+				    </div>
+				</div>
+				<div class="menu_text" onmouseover="mouseOver(3)" onmouseout="mouseOut(3)">
+					<div class="text">
+						<a id="menu_text3" href="" style="color:rgb(0,0,0);">实验实训</a>
+					</div>
+				</div>
+				<div class="menu_text" onmouseover="mouseOver(4)" onmouseout="mouseOut(4)">
+					<div class="text">
+						<a id="menu_text4" href="" style="color:rgb(0,0,0);">教务教学</a>
+					</div>
+				</div>
+				<div class="menu_text" onmouseover="mouseOver(5)" onmouseout="mouseOut(5)">
+					<div class="text">
+						<a id="menu_text5" href="" style="color:rgb(0,0,0);">科学研究</a>
+					</div>
+				</div>
+				<div class="menu_text" onmouseover="mouseOver(6)" onmouseout="mouseOut(6)">
+					<div class="text">
+						<a id="menu_text6" href="" style="color:rgb(0,0,0);">学生工作</a>
+					</div>
+				</div>
+				<div class="menu_text" onmouseover="mouseOver(7)" onmouseout="mouseOut(7)">
+					<div class="text">
+						<a id="menu_text7" href="" style="color:rgb(0,0,0);">评建工作</a>
+				    </div>
+				</div>
+				<div class="menu_text" onmouseover="mouseOver(8)" onmouseout="mouseOut(8)">
+					<div class="text">
+						<a id="menu_text8" href="" style="color:rgb(0,0,0);">在线咨询</a>
+					</div>
+				</div>   
+			</div>
+		</div>
+	</div>
+</div>
+		<!--导航子菜单-->
+		<div id="child_menu">
+		    <div id="banner_shadow" style="display:none;" ></div>
+		    <div class="child_menu_box">
+                <div id="child_menu2" onmouseover="menuMouseOver(2)" onmouseout="menuMouseOut(2)" style="display:none;">
+                    <div class="item">
+                	    <a href="#">学院简介</a>
+                    </div>
+                    <div class="item">
+                	    <a href="#">学院领导</a>
+                    </div>
+                    <div class="item">
+                	    <a href="#">师资队伍</a>
+                    </div>
+                    <div class="item">
+                	    <a href="#">学院荣誉</a>
+                    </div>
+                    <div class="item">
+                	    <a href="#">机构设置</a>
+                    </div>
+		        </div>
+		        <div id="child_menu3" onmouseover="menuMouseOver(3)" onmouseout="menuMouseOut(3)" style="display:none;">
+                    <div class="item">
+                	    <a href="#">科研设施</a>
+                    </div>
+                    <div class="item">
+                	    <a href="#">实验室</a>
+                    </div>
+                    <div class="item">
+                	    <a href="#">实习基地</a>
+                    </div>
+                    <div class="item">
+                	    <a href="#">学生实训室</a>
+                    </div>
+                    <div class="item">
+                	    <a href="#">科研|实验|实训活动</a>
+                    </div>
+		        </div>
+		        <div id="child_menu4" onmouseover="menuMouseOver(4)" onmouseout="menuMouseOut(4)" style="display:none;">
+		        
+		        </div>
+		        <div id="child_menu5" onmouseover="menuMouseOver(5)" onmouseout="menuMouseOut(5)" style="display:none;">
+                   
+		        </div>
+		        <div id="child_menu6" onmouseover="menuMouseOver(6)" onmouseout="menuMouseOut(6)" style="display:none;">
+                    <div class="item">
+                	    <a href="#">学工概况</a>
+                    </div>
+                    <div class="item">
+                	    <a href="#">奖助贷勤</a>
+                    </div>
+                    <div class="item">
+                	    <a href="#">学生社团</a>
+                    </div>
+                    <div class="item">
+                	    <a href="#">就业指导</a>
+                    </div>
+                    <div class="item">
+                	    <a href="#">科技创新</a>
+                    </div>
+                    <div class="item">
+                	    <a href="#">团学活动</a>
+                    </div>
+		        </div>
+		        <div id="child_menu7" onmouseover="menuMouseOver(7)" onmouseout="menuMouseOut(7)" style="display:none;">
+                    <div class="item">
+                	    <a href="#">评建工作</a>
+                    </div>
+                    <div class="item">
+                	    <a href="#">新闻动态</a>
+                    </div>
+                    <div class="item">
+                	    <a href="#">通知公告</a>
+                    </div>
+		        </div>
+		        <div id="child_menu8" onmouseover="menuMouseOver(8)" onmouseout="menuMouseOut(8)" style="display:none;">                 
+		        </div>
+            </div>
+        </div>
+        <!--轮播图片-->
+        <div id="banner">
+		<div class="banner_content">
+			
+			<div class="pic_box" id="pic_box1">
+				<div class="pic1">
+					<div class="pic_box_bg"></div>
+					<a href="http://info.ruc.edu.cn/news_convert_detail.php?id=1580" target="_blank"><img class="pic" src="../计算机与通信学院/img/lb1.jpg" style="width:299px;height:140px;"/></a>
+					<p class="title"><a href="http://info.ruc.edu.cn/news_convert_detail.php?id=1580" target="_blank" title="我校召开章程实施工作专项督导迎评推进工作会议">我校召开章程实施工作专项督导迎评推...</a></p>
+					<p class="content">4月25日上午，我校在311会议室召开章程实施工作专项督导迎评推进工作会议。</p>
+				</div>
+				<div class="pic2">
+					<div class="pic_box_bg"></div>
+					<a href="http://info.ruc.edu.cn/news_convert_detail.php?id=1537" target="_blank"><img class="pic" src="../计算机与通信学院/img/lb2.jpg" style="width:299px;height:140px;"/></a>
+					<p class="title"><a href="http://info.ruc.edu.cn/news_convert_detail.php?id=1537" target="_blank" title="计算机与通信学院下寝活动">计算机与通信学院下寝活动</a></p>
+					<p class="content">12月12日下午16:30计算机与通信学院学院党总支书记邹志强及学院全体班主任在团学会生活部成员的陪同下前往各个寝室检查学生寝室情况。</p>
+				</div>
+				<div class="pic3">
+					<div class="pic_box_bg"></div>
+					<a href="http://info.ruc.edu.cn/news_convert_detail.php?id=1558" target="_blank"><img class="pic" src="../计算机与通信学院/img/lb3.jpg" style="width:299px;height:140px;"/></a>
+					<p class="title"><a href="http://info.ruc.edu.cn/news_convert_detail.php?id=1558" target="_blank" title="我校师生集中收看热议习近平总书记在纪念马克思诞辰200周年大会上的讲话">我校师生集中收看热议习近平总书记在...</a></p>
+					<p class="content">纪念马克思诞辰200周年大会4日上午在北京人民大会堂隆重举行。</p>
+				</div>
+			</div>
+			<div class="pic_box" id="pic_box2">
+				<div class="pic1">
+					<div class="pic_box_bg"></div>
+					<a href="http://info.ruc.edu.cn/news_convert_detail.php?id=1517" target="_blank"><img class="pic" src="../计算机与通信学院/img/lb4.jpg" style="width:299px;height:140px;"/></a>
+					<p class="title"><a href="http://info.ruc.edu.cn/news_convert_detail.php?id=1517" target="_blank" title="Google软件工程师尹苓琳来学院交流指导">Google软件工程师尹苓琳来学院交流...</a></p>
+					<p class="content">2018年3月6日下午，中国人民大学党委书记靳诺、党委常务副书记张建明到信息学院开展基层党组织建设情况调研。</p>
+				</div>
+				<div class="pic2">
+					<div class="pic_box_bg"></div>
+					<a href="http://info.ruc.edu.cn/news_convert_detail.php?id=1561" target="_blank"><img class="pic" src="../计算机与通信学院/img/lb5.jpg" style="width:299px;height:140px;"/></a>
+					<p class="title"><a href="http://info.ruc.edu.cn/news_convert_detail.php?id=1561" target="_blank" title="计算机与通信学院召开全体心理委员会议">计算机与通信学院召开全体心理委员会议</a></p>
+					<p class="content">为了更好地了解各班学生的心理状况，计算机与通信学院于3月23日中午在学校心理团体辅导室召开了全体心理委员大会。</p>
+				</div>
+				<div class="pic3">
+					<div class="pic_box_bg"></div>
+					<a href="http://info.ruc.edu.cn/news_convert_detail.php?id=1456" target="_blank"><img class="pic" src="../计算机与通信学院/img/lb6.jpg" style="width:299px;height:140px;"/></a>
+					<p class="title"><a href="http://info.ruc.edu.cn/news_convert_detail.php?id=1456" target="_blank" title="计算机与通信学院开展“计算机基础课程中心”系统推介活动">计算机与通信学院开展“计算机基础课...</a></p>
+					<p class="content">4月17日下午，计算机与通信学院基础教研室在E311室向全院老师推出了一堂技术时尚、应用方便、内容丰富、生动灵活的教研教改公开课。</p>
+				</div>
+			</div>
+			<div class="pic_box" id="pic_box3">
+				<div class="pic1">
+					<div class="pic_box_bg"></div>
+					<a href="http://info.ruc.edu.cn/news_convert_detail.php?id=1540" target="_blank"><img class="pic" src="../计算机与通信学院/img/lb7.jpg" style="width:299px;height:140px;"/></a>
+					<p class="title"><a href="http://info.ruc.edu.cn/news_convert_detail.php?id=1540" target="_blank" title="我校举办第四届大学生思想政治理论课研究性学习成果展示竞赛决赛">我校举办第四届大学生思想政治理论课</a></p>
+					<p class="content">5月8日晚上，我校在主校区D302举办了学习贯彻习近平新时代中国特色社会主义思想暨第四届大学生思想政治理论课研究性学习成果展示。</p>
+				</div>
+				<div class="pic2">
+					<div class="pic_box_bg"></div>
+					<a href="http://info.ruc.edu.cn/news_convert_detail.php?id=1580" target="_blank"><img class="pic" src="../计算机与通信学院/img/lb8.jpg" style="width:299px;height:140px;"/></a>
+					<p class="title"><a href="http://info.ruc.edu.cn/news_convert_detail.php?id=1580" target="_blank" title="高举五四火炬唱响青春之歌——我校举行2018年五四表彰大会">高举五四火炬唱响青春之歌——我校举行...</a></p>
+					<p class="content">5月4日上午，湖南工程学院2018年五四表彰大会在二报告厅举行。</p>
+				</div>
+				<div class="pic3">
+					<div class="pic_box_bg"></div>
+					<a href="http://info.ruc.edu.cn/news_convert_detail.php?id=1552" target="_blank"><img class="pic" src="../计算机与通信学院/img/lb9.png" style="width:299px;height:140px;"/></a>
+					<p class="title"><a href="http://info.ruc.edu.cn/news_convert_detail.php?id=1552" target="_blank" title="【中国教育报】实践育人 追求“卓越” ——聚焦湖南工程学院转型建设与改革">【中国教育报】实践育人 追求“卓越”...</a></p>
+					<p class="content">学校自2010年正式开始（2009级学生开始试点）的“卓越工程师教育培养计划”就是这场“长征路”上攀登的一座新高峰。</p>
+				</div>
+			</div>			<div class="slide_bar_box">
+				<div class="slide_bar" id="slide_bar1" onmouseover="slideBarMouseOver1(1)" onmouseout="slideBarMouseOut1(1)"></div>
+				<div class="slide_bar" id="slide_bar2" onmouseover="slideBarMouseOver1(2)" onmouseout="slideBarMouseOut1(2)"></div>
+				<div class="slide_bar" id="slide_bar3" onmouseover="slideBarMouseOver1(3)" onmouseout="slideBarMouseOut1(3)"></div>
+			</div>
+		</div>
+	</div>
+	<!--主体-->
+	<div id="main">
+		<div class="box1">
+			<div class="main_box1">
+				<div class="about_top">
+					<span class="aboutme">关于我们</span>
+				</div>
+				<div class="about_img">
+					<div class="ptjs">
+						<div class="cont_img">
+                            <img src="../计算机与通信学院/img/ptjs_logo.png">
+						</div>
+						<div class="cont_title">
+                            <span>平台建设</span>
+						</div>
+						<div class="ckxq">
+							<a href="">查看详情</a>
+						</div>
+					</div>
+					<div class="xyld">
+						<div class="cont_img">
+                            <img src="../计算机与通信学院/img/xyld_logo.png">
+						</div>
+						<div class="cont_title">
+                            <span>学院领导</span>
+						</div>
+						<div class="ckxq">
+							<a href="">查看详情</a>
+						</div>
+					</div>
+					<div class="kytd">
+						<div class="cont_img">
+                            <img src="../计算机与通信学院/img/kytd_logo.png">
+						</div>
+						<div class="cont_title">
+                            <span>科研团队</span>
+						</div>
+						<div class="ckxq">
+							<a href="">查看详情</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>  
+		<div class="box2">    
+			<div class="main_box2">
+				<div class="notices">
+					<dl>
+						<dt><span><img src="../计算机与通信学院/img/notices_logo.png" style="width:22px;height:22px;position:relative;top:3px;left:10px;"><p>通知公告</p></span></dt>
+						<dd>
+							<a href="#">关于2018年湖南工程学院“我的读书情结”征文比赛</a>
+							<span>(04-30)</span>
+					    </dd>
+					    <dd>
+							<a href="#">关于2018年湖南工程学院“我的读书情结”征文比赛</a>
+							<span>(04-30)</span>
+					    </dd>
+					    <dd>
+							<a href="#">关于2018年湖南工程学院“我的读书情结”征文比赛</a>
+							<span>(04-30)</span>
+					    </dd>
+					    <dd>
+							<a href="#">关于2018年湖南工程学院“我的读书情结”征文比赛</a>
+							<span>(04-30)</span>
+					    </dd>
+					    <dd>
+							<a href="#">关于2018年湖南工程学院“我的读书情结”征文比赛</a>
+							<span>(04-30)</span>
+					    </dd>
+					    <dd>
+							<a href="#">关于2018年湖南工程学院“我的读书情结”征文比赛</a>
+							<span>(04-30)</span>
+					    </dd>
+					    <dd>
+							<a href="#">关于2018年湖南工程学院“我的读书情结”征文比赛</a>
+							<span>(04-30)</span>
+					    </dd>
+					    <dd>
+							<a href="#">关于2018年湖南工程学院“我的读书情结”征文比赛</a>
+							<span>(04-30)</span>
+					    </dd>
+					    <dd>
+							<a href="#">关于2018年湖南工程学院“我的读书情结”征文比赛</a>
+							<span>(04-30)</span>
+					    </dd>
+					    <dd>
+							<a href="#">关于2018年湖南工程学院“我的读书情结”征文比赛</a>
+							<span>(04-30)</span>
+					    </dd>
+					    <dd class="more">
+					    	<span>
+					    		<a href="">更多</a>
+					    	</span>
+					    </dd>			
+				    </dl>    
+				</div>
+				<div class="news">
+					<dl>
+						<dt><span><img src="../计算机与通信学院/img/news_logo.png" style="width:22px;height:22px;position:relative;top:3px;left:10px;"><p>通知公告</p></span></dt>
+						<dd>
+							<a href="#">湘南学院软件与通信工程来我校考察交流</a>
+							<span>(04-30)</span>
+					    </dd>
+					    <dd>
+							<a href="#">校学科办领导来计算机与通信学院调研学科建设工作</a>
+							<span>(04-30)</span>
+					    </dd>
+					    <dd>
+							<a href="#">校学科办领导来计算机与通信学院调研学科建设工作</a>
+							<span>(04-30)</span>
+					    </dd>
+					    <dd>
+							<a href="#">校学科办领导来计算机与通信学院调研学科建设工作</a>
+							<span>(04-30)</span>
+					    </dd>
+					    <dd>
+							<a href="#">校学科办领导来计算机与通信学院调研学科建设工作</a>
+							<span>(04-30)</span>
+					    </dd>
+					    <dd>
+							<a href="#">校学科办领导来计算机与通信学院调研学科建设工作</a>
+							<span>(04-30)</span>
+					    </dd>
+					    <dd>
+							<a href="#">校学科办领导来计算机与通信学院调研学科建设工作</a>
+							<span>(04-30)</span>
+					    </dd>
+					    <dd>
+							<a href="#">校学科办领导来计算机与通信学院调研学科建设工作</a>
+							<span>(04-30)</span>
+					    </dd>
+					    <dd>
+							<a href="#">校学科办领导来计算机与通信学院调研学科建设工作</a>
+							<span>(04-30)</span>
+					    </dd>
+					    <dd>
+							<a href="#">校学科办领导来计算机与通信学院调研学科建设工作</a>
+							<span>(04-30)</span>
+					    </dd>
+					    <dd class="more">
+					    	<span>
+					    		<a href="">更多</a>
+					    	</span>
+					    </dd>				
+				    </dl>    
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--底部-->
+	<div id="footer">
+        <div class="links">
+        	<div class="links_box">
+                <div class="quick_link">快速链接</div>
+                    <div class="separator">
+                        <img src="../计算机与通信学院/img/footer_separator.png">
+                    </div>
+                    <div class="left_icon">
+                        <img src="../计算机与通信学院/img/footer_left_icon.png">
+                    </div>
+                    <div class="link_list">
+                        <ul style="width:1766px;">
+                            <li>
+                            	<a href="#">关于我们</a>
+                            </li>
+                            <li>
+                            	<a href="#">实验实训</a>
+                            </li>
+                            <li>
+                            	<a href="#">教务教学</a>
+                            </li>
+                            <li>
+                            	<a href="#">科学研究</a>
+                            </li>
+                            <li>
+                            	<a href="#">学生工作</a>
+                            </li>
+                            <li>
+                            	<a href="#">评建工作</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="right_icon">
+                        <img src="../计算机与通信学院/img/footer_right_icon.png">
+                    </div>
+        	</div>        	
+        </div>
+        <div id="footer">
+        	<div class="bottom">
+        		<div class="bottom_box">
+                    <div class="hnie">
+                    	<div style="width:100px;">
+                           <img src="../计算机与通信学院/img/hnie.png" style="width:95px;margin-bottom:5px"><p style="font-weight:bold;">
+                           <a href="http://www.hnie.edu.cn/" style="color:#3a3aba;">湖南工程学院主页</a></p>
+                    	</div>
+                    </div>
+                    <div class="copy_right">
+                    Copyright © 2002-2017 计算机与通信学院 版权所有</div>
+                    <div class="copy_right_cn">湖南工程学院计算机与通信学院</div>
+                    <div class="address">
+                    	<a href="https://ditu.so.com/?t=map&src=onebox&new=1&dspall=0&k=%E6%B9%96%E5%8D%97%E5%B7%A5%E7%A8%8B%E5%AD%A6%E9%99%A2%E7%99%BE%E5%BA%A6%E5%9C%B0%E5%9B%BE&c=%E6%B9%98%E6%BD%AD&new=1" title="address">地址：湘潭市岳塘区福星东路88号
+                    	</a>
+                    </div>
+                    <div class="email">邮编：******</div>
+        		</div>
+        	</div>
+        </div>
+	</div>
+	<script type="text/javascript" src="../计算机与通信学院/js/jquery-main.js"></script>
+</body>
+</html>
