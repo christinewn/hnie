@@ -1,0 +1,36 @@
+.box1_pic1{
+	position:relative;
+    margin:80px auto;
+	width:300px;
+	height:230px;
+	border:1px solid red;
+}
+.box{
+	position:relative;
+    margin:0px auto;
+    width:200px;
+	height:190px;
+	top:30px;
+}
+.pic1{
+	position:relative;
+    margin:0px auto;
+	width:200px;
+	height:140px;
+	top:15px;
+}
+.title{
+	width:199px;
+	height:20px;
+	padding-top:10px;
+	margin-top:20px;
+	margin-left:0px;
+	text-align:center;
+}
+ a{
+text-decoration:none;
+color:blue;
+}
+ a:hover{
+color:red;
+}
