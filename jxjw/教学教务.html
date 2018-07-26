@@ -231,41 +231,6 @@
         </div>
         <!--主体-->
         <div id="main">
-            <div class="side_bar">
-                <div class="side_top">
-                	<a class="logo" href="">
-                        <img src="../img/side_logo.png">
-                        <p>
-                    关于我们
-                	</p>
-                	</a>
-                </div>  
-                <div id="cur_menu" class="side_menu">
-                    <div class="text">
-                        <a href="">学院简介</a>
-                    </div>
-                </div> 
-                <div class="side_menu">
-                    <div class="text">
-                        <a href="">学院领导</a>
-                    </div>
-                </div> 
-                <div class="side_menu">
-                    <div class="text">
-                        <a href="">师资队伍</a>
-                    </div>
-                </div> 
-                <div class="side_menu">
-                    <div class="text">
-                        <a href="">学院荣誉</a>
-                    </div>
-                </div> 
-                <div class="side_menu">
-                    <div class="text">
-                        <a href="">机构设置</a>
-                    </div>
-                </div> 
-            </div>
             <div class="navigation">
             	<div class="text">
             		您所在的位置是：
@@ -364,7 +329,7 @@
                         <img src="../img/separator.png">
                     </div>
                     <div class="title">
-                        <a href="" target="_blank">Google 软件工程师尹苓琳来计算机与通信学院交流指导</a>
+                        <a href="" target="_blank">Google 软件工程师尹苓琳来计算机与通信学院交流指</a>
                     </div> 
                     <div class="click">[浏览量：0次]</div>  
                 </div>
@@ -383,16 +348,10 @@
                 </div>
                 <script type="text/javascript">
                 var n = 0;
-                $(".block .title").each(function(index,ele){
-                    $(ele).on("click",function () {
-                        $(".block .title").each(function(index,ele){
-                            $(ele).next().html('浏览量：' + (++n)+'次');
-                        });
-                    });
-                });
-        //         $(".block .title").click(function(e) {
-        //         $(this).next('.block .click').html('浏览量：' + (++n)+'次')
-        // })
+                
+                $(".block .title").click(function(e) {
+                $(this).next('.block .click').html('浏览量：' + (++n)+'次')
+        })
                 </script>
                  <div class="page_box">
                     <div class="pre">

@@ -1,0 +1,39 @@
+#main h1{
+position:relative;
+left:250px;
+width:750px;
+text-align:center;
+font-size:20px;
+margin:50px 0;
+}
+
+#main .content{
+	border-top:1px solid #dcdcdc;
+	position:relative;
+	left:250px;
+	width:750px;
+	height:1150px;
+	margin-top: 30px;
+	padding-top: 40px;
+	font-size: 14px;
+	line-height: 2.3em;
+}
+
+#main .content p{
+   text-indent:28px;
+}
+
+#main .content .pic_{
+	position:relative;
+	float:left;
+	margin-right:30px;
+	margin-bottom:30px;
+	box-shadow:16px 16px 16px 0 rgba(0,0,0,0.30);
+}
+
+#main .content p span{
+	font-size:30px;
+	color:#004EB3;
+	font-family:宋体;
+	font-weight:bold;
+}

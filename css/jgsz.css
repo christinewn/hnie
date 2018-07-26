@@ -1,15 +1,3 @@
-#banner_pic{
-	overflow:hidden;
-	width:100%;
-	height:154px;
-	background-image: url(../img/banner_bg.gif);
-}
-
-#banner_pic .pic{
-	width:1000px;
-	position:relative;
-	margin:0px auto;
-}
 
 #main{
 min-height:600px;
