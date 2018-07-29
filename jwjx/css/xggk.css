@@ -1,0 +1,128 @@
+#main .content {
+	padding-top: 15px;
+	position: relative;
+	top: 0px;
+	left: 250px;
+	width: 750px;
+	padding-bottom: 50px;
+}
+
+#main .content .block {
+	position: relative;
+	height: 50px;
+	margin-top: 30px;
+	border-bottom: 1px solid #e2e2e2;
+}
+
+#main .content .block .date {
+	height: 50px;
+	width: 53px;
+	border-bottom: 1px solid #ae0c2a;
+}
+
+#main .content .block .year {
+	position: absolute;
+	left: 5px;
+}
+
+#main .content .block .day {
+	position: absolute;
+	left: 2px;
+	top: 22px;
+	font-weight: bold;
+}
+
+#main .content .block .separator {
+	position: absolute;
+	top: 5px;
+	left: 50px;
+}
+
+#main .content .block .title {
+	position: absolute;
+	top: 0px;
+	left: 66px;
+	font-size: 14px;
+}
+
+#main .content .block .click {
+	position: absolute;
+	left: 66px;
+	top: 25px;
+	color: #959595;
+}
+
+
+#main .content .page_box{
+	clear:both;
+	padding:50px 0px;
+	position:relative;
+	height:24px;
+	font-size:12px;
+}
+
+#main .content .page_box .pre{
+	height:22px;
+	width:65px;
+	border:1px solid #cacaca;
+}
+
+#main .content .page_box .pre .img{
+	position:absolute;
+	top:4px;
+	left:8px;
+}
+
+#main .content .page_box .pre .text{
+	position:absolute;
+	top:3px;
+	left:20px;
+}
+
+
+#main .content .page_box .pre a{
+	color:#1d50a2;
+}
+
+#main .content .page_box .active{
+	background-color:#1d50a2;
+	color:#fff;
+}
+
+#main .content .page_box .page{
+	height:22px;
+	width:22px;
+	border:1px solid #cacaca;
+	margin-left:6px;
+	text-align:center;
+	line-height:22px;
+}
+
+#main .content .page_box div{
+	float:left;
+	height:24px;
+	position:relative;
+}
+
+#main .content .page_box .next{
+	margin-left:6px;
+	height:22px;
+	width:65px;
+	border:1px solid #cacaca;
+}
+
+#main .content .page_box .next .text{
+	position:absolute;
+	top:3px;
+	left:7px;
+}
+
+#main .content .page_box .next a{
+	color:#1d50a2;
+}
+
+#main .content .page_box .next .img{
+	position:absolute;
+	top:4px;
+	right:8px;
+}

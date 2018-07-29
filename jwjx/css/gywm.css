@@ -1,0 +1,510 @@
+/*----------------------------学院简介----------------------*/
+#main .xyjj_h1{
+position:relative;
+left:250px;
+width:750px;
+text-align:center;
+font-size:20px;
+margin:50px 0;
+}
+
+#main .xyjj_content{
+	border-top:1px solid #dcdcdc;
+	position:relative;
+	left:250px;
+	width:750px;
+	margin-top: 30px;
+	padding-top: 40px;
+	padding-bottom:50px;
+	font-size: 14px;
+	line-height: 2.3em;
+}
+
+#main .xyjj_content p{
+   text-indent:28px;
+}
+
+#main .xyjj_content .pic_{
+	position:relative;
+	float:left;
+	margin-right:30px;
+	margin-bottom:30px;
+	box-shadow:16px 16px 16px 0 rgba(0,0,0,0.30);
+}
+
+#main .xyjj_content p span{
+	font-size:30px;
+	color:#004EB3;
+	font-family:宋体;
+	font-weight:bold;
+}
+
+/*------------------------------学院领导------------------------*/
+
+#main .xyld_h1{
+position:relative;
+left:250px;
+width:750px;
+text-align:center;
+font-size:20px;
+margin:50px 0;
+} 
+
+#main .xyld_content{
+	border-top:1px solid #dcdcdc;
+	position:relative;
+	left:250px;
+	width:790px;
+	margin-top: 30px;
+	padding-top: 40px;
+	padding-bottom:50px;
+}
+
+#main .xyld_content .box{
+	width:790px;
+	position:relative;
+	left:-40px;
+	height:900px;
+}
+
+#main .xyld_content .block{
+	margin-left:40px;
+	margin-bottom:50px;
+	width:355px;
+	height:250px;
+	float:left;	
+}
+
+#main .xyld_content .block .title{
+	margin-bottom:8px;
+	height:22px;
+	border-left:7px solid #1d50a2;
+	padding-left:8px;
+	color:#1d50a2;
+	font-size:16px;
+}
+
+#main .xyld_content .block .card{
+	height:220px;
+	width:355px;
+	background-color:#f5f5f5;
+	position:relative;
+}
+
+#main .xyld_content .block .photo{
+	position:relative;
+	top:7px;
+	left:7px;
+}
+
+#main .xyld_content .block .photo img{
+	width:154px;
+	height:205px;
+}
+
+#main .xyld_content .name{
+	font-size:16px;
+	font-weight:bold;
+	position:absolute;
+    left:180px;
+    top:15px;
+}
+
+#main .xyld_content .desp{
+	position:absolute;
+	left:180px;
+	top:45px;
+	width:165px;
+	line-height:20px;
+}
+
+/*-----------------------师资队伍--------------------------*/
+
+#main .szdw_h1{
+position:relative;
+left:250px;
+width:750px;
+text-align:center;
+font-size:20px;
+margin:50px 0;
+}  
+
+#main .szdw_content{
+	position:relative;
+	border-top:1px solid #dcdcdc;
+	left:250px;
+	width:750px;
+	overflow:hidden;
+	padding-top:20px;
+	padding-bottom:50px;
+}
+
+#main .szdw_content .card{
+	position:relative;
+	width:750px;
+	height:197px;
+	margin-top:35px;
+	background:url(../img/szdw_bg.jpg);
+} 
+
+#main .szdw_content .photo{
+	position:absolute;
+	top:4px;
+	left:4px;
+	height:186px;
+	width:140px;
+	overflow:hidden;
+}
+
+#main .szdw_content .photo img{
+	height:186spx;
+	width:140px;
+}
+
+#main .szdw_content .name{
+	position:absolute;
+	left:175px;
+	top:30px;
+	font-size:16px;
+	font-weight:bold;
+
+}
+
+#main .szdw_content .name a{
+	color:#1d50a2;
+}
+
+#main .szdw_content .research{
+	position:absolute;
+	left:175px;
+	top:70px;
+	font-size:14px;
+	line-height:23px;	
+}
+
+#main .szdw_content .course{
+	position:absolute;
+	left:175px;
+	top:128px;
+	font-size:14px;
+	line-height:23px;279952185
+}
+
+#main .szdw_content .page_box{
+	clear:both;
+	padding:50px 0px;
+	position:relative;
+	height:24px;
+	font-size:12px;
+}
+
+#main .szdw_content .pre{
+	height:22px;
+	width:65px;
+	border:1px solid #cacaca;
+}
+
+#main .szdw_content .pre .img{
+	position:absolute;
+	top:5px;
+	left:8px;
+}
+
+#main .szdw_content .pre .text{
+	position:absolute;
+	top:3px;
+	left:20px;
+}
+
+#main .szdw_content .active{
+	background-color:#1d50a2;
+	color:#fff;
+}
+
+#main .szdw_content .active a{
+	color:#fff;
+}
+
+#main .szdw_content .page{
+	height:22px;
+	width:22px;
+	border:1px solid #cacaca;
+	margin-left:6px;
+	text-align:center;
+	line-height:22px;
+}
+
+#main .szdw_content .next{
+	margin-left:6px;
+	height:22px;
+	width:65px;
+	border:1px solid #cacaca;
+}
+
+#main .szdw_content .next .text{
+	position:absolute;
+	top:3px;
+	right:20px;
+}
+
+#main .szdw_content .next a{
+	color:#1d50a2;
+}
+
+#main .szdw_content .next .img{
+	position:absolute;
+	top:4px;
+	right:8px;
+}
+
+#main .szdw_content .page_box div{
+	float:left;
+	height:24px;
+	position:relative;
+}
+
+/*-------------------------学院荣誉-------------------------*/
+
+#main .xyry_h1{
+position:relative;
+left:250px;
+width:750px;
+text-align:center;
+font-size:20px;
+margin:50px 0;
+}
+
+#main .xyry_content{
+	position:relative;
+	border-top:1px solid #dcdcdc;
+	left:250px;
+	width:750px;
+	height:600px;
+	overflow:hidden;
+	padding-top:20px;
+
+}
+
+#main .xyry_content .pic_box{
+	position:relative;
+	width:166px;
+	height:170px;
+	left:0px;
+	float:left;
+	margin-right:20px;
+	margin-bottom:0px;
+	
+}
+
+#main .xyry_content .box{
+   position:relative;
+    margin:0px auto;
+	width:166px;
+	height:180px;	
+	top:20px;
+	transition: 0.5s;
+	-moz-transition: 0.5s;
+	-webkit-transition: 0.5s;
+}
+
+#main .xyry_content .pic{
+	width:166px;
+	height:135px;
+	margin-top:10px;
+}
+
+#main .xyry_content .pic img{
+	box-shadow: 8px 8px 12px 0 rgba(0,0,0,0.60);
+}
+#main .xyry_content .pic_title{
+	position:relative;
+	width:150px;
+	height:20px;
+	top:-10px;
+	font-size:16px;
+	margin:0px auto;
+	text-align:center;
+	padding-top:0px;
+
+}
+
+#main .xyry_content .pic_title a{
+	font-size:14px;
+}
+
+/*-------------------------师资队伍--------------------------*/
+
+#main .jgsz_h1{
+position:relative;
+left:250px;
+width:750px;
+text-align:center;
+font-size:20px;
+margin:50px 0;
+}
+
+#main .jgsz_content{
+	padding-top:40px;
+	width:790px;
+	position:relative;
+	left:250px;
+	min-height:500px;
+	border-top:1px solid #dcdcdc;
+}
+
+#main .jgsz_content .block{
+	position:relative;
+	left:0px;
+	margin-left:40px;
+	margin-bottom:50px;
+	width:355px;
+	min-height:150px;
+	float:left;	
+}
+
+#main .jgsz_content .block .title{
+	margin-bottom:8px;
+	height:22px;
+	border-left:7px solid #1d50a2;
+	padding-left:8px;
+	color:#1d50a2;
+	font-size:16px;
+}
+
+#main .jgsz_content .block .card{
+	height:auto;
+	width:345px;
+	padding:10px 15px;
+	position:relative;
+	background-color:#f5f5f5;
+}
+
+#main .jgsz_content .block .card ul li{
+	font-size:16px;
+	list-style:none;
+	font-family:宋体;
+	line-height:22px;
+	font-weight:lighter;
+	color:#555;
+}
+
+/*------------------------个人简介---------------------------*/
+			ul{
+				list-style: none;
+			}
+			.nav{
+				width: 100%;
+				padding-bottom:50px;
+				background: url(../img/body_bg.jpg);
+			}
+			.nav_nav{
+				width: 1170px;
+				margin: 30px auto 0px;
+				
+			}
+			.nav_top{
+				width: 1170px;
+				height: 284px;
+				background: url(../img/74body_top.jpg);
+				position: relative;
+			}
+			.nav_top ul{
+				position: absolute;
+				float: left;
+				bottom: -20px;
+				left:30px;
+				width: 1000px;
+				height:138px;
+			}
+			.nav_top ul li{
+				float: left;
+			}
+			.nav_img{
+				width: 110px;
+				height: 138px;
+				border: 1px solid #dcdcdc;
+				background:#fff;
+				margin-right:50px;
+			}
+			.nav_top ul li img{
+				width: 100px;
+				height:128px;
+				display: block;
+				margin: 5px;
+				}
+			.nav_zy{
+				width: 700px;
+				height: 138px;
+			}
+			.nav_zy span{
+					color: #FFFFFF;
+					font-size:42px;
+					background: rgba(0,0,0,.5);
+			}	
+			.nav_zy p{
+				    
+				    margin-top:2px;
+					color: #FFFFFF;
+					font-size:22px ;
+					width: 750px;
+					height:41px;
+					background: rgba(0,0,0,.5);
+			}
+			.nav_text{
+				background: #fff;
+				width: 100%;
+				height: 850px;
+			}
+			.nav_text ul{
+				
+			}
+			.text_menu{
+				padding: 25px 0px 0px 30px; 
+				width: 1110px;
+				font-size:24px ;
+				line-height:24px;
+				float: left;
+				font-weight:100 ;
+				margin:0px auto;
+			}
+			.text_menu span{
+				float:left ;
+				font-weight:lighter;
+			}
+			.text_menu font{
+				margin-left: 10px;
+				float:left;
+			}
+			.text_menu p{
+				font-size:14px ;
+				color: #999;
+				margin: 10px;
+				width: 1090px;
+			}
+			.text_bot{
+				width: 1000px;
+				height: 40px;
+				float:left;
+				font-size: 14px;
+				line-height: 40px;
+				padding-left: 76px;
+			}
+			.text_bot li{
+				float: left;
+			}
+            .text_bot font{
+            	font-weight:700;
+            	color:#555;
+            }
+			.text_bot span{
+				margin-left: 10px;
+				font-size:14px;
+				color:#777;
+				font-weight:lighter;
+			}
+			.text_menu p{
+				color:#777;
+			}
+			.text_bot1{
+				width: 400px;
+			}

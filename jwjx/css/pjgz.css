@@ -1,0 +1,276 @@
+#main .content{
+	position:relative;
+	left:250px;
+	width:750px;
+	overflow:hidden;
+	padding-top:20px;
+	padding-bottom:50px;
+}
+
+#main .card{
+	position:relative;
+	width:750px;
+	height:150px;
+	padding:30px 0px;
+	border-bottom:1px dotted #c8c8c8;
+}
+
+#main .card .photo img{
+	border: 1px solid #c8c8c8;
+}
+
+#main .card .title{
+	position:absolute;
+	top:47px;
+	left:215px;
+	font-size:18px;
+}
+
+#main .card .title a{
+	color:#1d50a2;
+}
+
+#main .card .detail{
+	position:absolute;
+	top:95px;
+	left:215px;
+	color:#959595;
+	font-size:14px;
+	line-height:25px;
+}
+
+#main .card .date{
+	position:absolute;
+	top:150px;
+	left:215px;
+	color:#959595;
+	font-size:14px;
+}
+
+#main .content .page_box{
+	clear:both;
+	padding:50px 0px;
+	position:relative;
+	height:24px;
+	font-size:12px;
+}
+
+#main .content .page_box .pre{
+	height:22px;
+	width:65px;
+	border:1px solid #cacaca;
+}
+
+#main .content .page_box .pre .img{
+	position:absolute;
+	top:4px;
+	left:8px;
+}
+
+#main .content .page_box .pre .text{
+	position:absolute;
+	top:3px;
+	left:20px;
+}
+
+#main .content .page_box .pre a{
+	color:#1d50a2;
+}
+
+#main .content .page_box .active{
+	background-color:#1d50a2;
+	color:#fff;
+}
+
+#main .content .page_box .page{
+	height:22px;
+	width:22px;
+	border:1px solid #cacaca;
+	margin-left:6px;
+	text-align:center;
+	line-height:22px;
+}
+
+#main .content .page_box div{
+	float:left;
+	height:24px;
+	position:relative;
+}
+
+#main .content .page_box .next{
+	margin-left:6px;
+	height:22px;
+	width:65px;
+	border:1px solid #cacaca;
+}
+
+#main .content .page_box .next .text{
+	position:absolute;
+	top:3px;
+	left:7px;
+}
+
+#main .content .page_box .next a{
+	color:#1d50a2;
+}
+
+#main .content .page_box .next .img{
+	position:absolute;
+	top:4px;
+	right:8px;
+}
+/*------------------------通知公告---------------------------*/
+
+#main .tzgg_content {
+	position:relative;
+	border-top:1px solid #dcdcdc;
+	left:250px;
+	width:750px;
+	overflow:hidden;
+	padding-top:20px;
+	padding-bottom:50px;
+}
+
+/*------通知公告-------*/
+
+#main .tzgg_content .teach { 
+	width: 450px;
+}
+
+#main .tzgg_content .block_top {
+	position: relative;
+	height: 69px;
+	width: 100%;
+	border-bottom: 1px solid #d2d2d2;
+}
+
+#main .tzgg_content .block_top .text {
+	padding-bottom: 10px;
+	position: absolute;
+	bottom: -1px;
+	font-size: 18px;
+	color: #1d50a2;
+	border-bottom: 1px solid black;
+}
+
+#main .tzgg_content .block {
+	position: relative;
+	height: 165px;
+	border-bottom: 1px dotted #d2d2d2;
+}
+
+#main .tzgg_content .block .title {
+	position: absolute;
+	top: 20px;
+	font-size: 16px;
+	color: #666666;
+}
+
+#main .tzgg_content .block .para {
+	position: absolute;
+	left: 30px;
+	top: 46px;
+	font-size: 14px;
+	color: #959595;
+}
+
+#main .tzgg_content .block .more {
+	position: absolute;
+	right: 0px;
+	bottom: 20px;
+}
+
+/*------两张图片-------*/
+
+#main .tzgg_content .pic {
+	position: absolute;
+	left: 550px;
+	top: 70px;
+}
+
+#main .tzgg_content .pic .pic_2 {
+	margin-top: 60px;
+}
+
+#main .tzgg_content .pic .pic_3 {
+	margin-top: 60px;
+}
+#main .tzgg_content .page_box{
+	clear:both;
+	padding:50px 0px;
+	position:relative;
+	height:24px;
+	font-size:12px;
+}
+
+#main .tzgg_content .page_box .pre{
+	height:22px;
+	width:65px;
+	border:1px solid #cacaca;
+}
+
+#main .tzgg_content .page_box .pre .img{
+	position:absolute;
+	top:4px;
+	left:8px;
+}
+
+#main .tzgg_content .page_box .pre .text{
+	position:absolute;
+	top:3px;
+	left:20px;
+}
+
+#main .tzgg_content .page_box .pre a{
+	color:#1d50a2;
+}
+
+#main .tzgg_content .page_box .active{
+	background-color:#1d50a2;
+	color:#fff;
+}
+
+#main .tzgg_content .page_box .page{
+	height:22px;
+	width:22px;
+	border:1px solid #cacaca;
+	margin-left:6px;
+	text-align:center;
+	line-height:22px;
+}
+
+#main .tzgg_content .page_box div{
+	float:left;
+	height:24px;
+	position:relative;
+}
+
+#main .tzgg_content .page_box .next{
+	margin-left:6px;
+	height:22px;
+	width:65px;
+	border:1px solid #cacaca;
+}
+
+#main .tzgg_content .page_box .next .text{
+	position:absolute;
+	top:3px;
+	left:7px;
+}
+
+#main .tzgg_content .page_box .next a{
+	color:#1d50a2;
+}
+
+#main .tzgg_content .page_box .next .img{
+	position:absolute;
+	top:4px;
+	right:8px;
+}
+
+
+
+
+
+
+
