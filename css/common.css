@@ -163,7 +163,7 @@ img {
 	height: 38px;
 	width: 100%;
 	background-color: #ffffff;
-	opacity: 0.8; 
+	opacity: 0.7s; 
 }
 
 #child_menu .child_menu_box {
@@ -247,6 +247,7 @@ img {
 	width:1000px;
 	position:relative;
 	margin:0px auto;
+	overflow: hidden;
 }
 
 #main{

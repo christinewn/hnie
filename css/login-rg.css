@@ -1,0 +1,111 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+ul,li,a {
+	text-decoration: none;
+	list-style-type: none;
+}
+
+.loginWrap{
+	width: 100%;
+    padding: 119.5px 0;
+	background-color: #f6f4f5;
+	overflow: hidden;
+	background: url(../img/login_bg.jpg);
+	background-size:100% 100%;
+}
+
+.registWrap{
+	width: 100%;
+    padding: 84px 0;
+	background-color: #f6f4f5;
+	overflow: hidden;
+	background: url(../img/login_bg.jpg);
+	background-size:100% 100%;
+}
+.loginWrap .content .loginform,.registWrap .content .loginform {
+	position:relative;
+	margin:0 auto;
+	width:600px;
+	background:  #dedede;
+    padding-top:50px;
+	padding-bottom:50px;
+	opacity:0.8;
+	border-radius: 10px;
+	background-size:100% 100%;
+}
+.content .loginform .login {
+	position:relative;
+    left:250px;
+	display: block;
+	padding-right: 23px;
+	width: 212px;
+	overflow: hidden;
+	height: 24px;
+	line-height: 24px;
+}
+
+.content .loginform .login b {
+    position:relative;
+	color: #333;
+	height: 24px;
+	font-size: 22px;
+	padding-left: 13px;
+	font-weight: bold;
+}
+
+.content .loginform form{
+	margin-top:50px;
+	overflow: hidden;
+}
+.content .loginform form .inputItem {
+	padding-bottom: 30px;
+	overflow: hidden;
+	position: relative;
+} 
+.content .loginform form span {
+	position:relative;
+	float: left;
+	left:-100px;
+	height: 42px;
+	padding-right: 23px;
+	line-height: 42px;
+	width: 300px;
+	text-align: right;
+}
+.content .loginform form input{
+	border-radius: 4px;
+	overflow: hidden;
+	float: left;
+	height: 40px;
+	left:-100px;
+	background:  #f0f0f0;
+	border: 1px solid #dcdcdc;
+	width: 200px;
+	padding-right: 35px;
+	position: relative;
+	text-indent: 10px;
+}
+
+.content .loginform form .loginBtn {
+	margin: 23px 0 0 115px;
+}
+.content .loginform form .loginBtn a {
+	display: block;
+	height: 50px;
+	line-height: 50px;
+	border-radius: 5px;
+	width: 380px;
+	text-align: center;
+	text-decoration: none;
+	background:  #b2b9bd;
+	font-size: 16px;
+	color: #fff;
+	letter-spacing: 3px;
+}
+
+
+
+
+

@@ -13,6 +13,7 @@
 	height: 445px;
 	overflow: hidden;
 	background: url(../img/jsj.jpg) top center no-repeat;
+   
 }
 
 
@@ -147,23 +148,19 @@
 	margin:0 auto;
 	width:1000px;
 	height:320px;
-	left:-100px;
+	left:-100px; 
 }
 
 #m_main .about_top{
 	padding-top:24px;
 	padding-bottom:16px;
 }
-#m_main .about_img{
-	transition: 0.5s;
-	-moz-transition: 0.5s;
-	-webkit-transition: 0.5s;
-}
 
 #m_main .aboutme{
 	position:relative;
 	left:100.5px;
-    font-size:24px;
+    font-size:16px;
+    font-weight:bold;
     color:#004EB3;
     letter-spacing:0;
     line-height:32px;
@@ -329,7 +326,7 @@
 }
 
 #m_main .notices dt{
-	border-bottom:2px solid #004EB3;
+	border-bottom:1px solid #004EB3;
 }
 
 #m_main .news{
@@ -342,7 +339,7 @@
 }
 
 #m_main .news dt{
-	border-bottom:2px solid #004EB3;
+	border-bottom:1px solid #004EB3;
 }
 
 #m_main .main_box2 dt{
@@ -354,10 +351,9 @@ margin:10px 0;
 #m_main .main_box2 dt p{
 	position:absolute;
 	top:8px;
-	left:50px;
+	left:40px;
 	font-weight:bold;
-	font-size:17px;
-	font-family:微软雅黑;
+	font-size:16px;
 	color:#004EB3;
 }
 
