@@ -131,18 +131,18 @@
 	left: 176px;
 }
 
-#main{
+#m_main{
 	height:790px;
 	background-color:#f0f0f0;
 	overflow:hidden;
 }
 
-#main .box1{
+#m_main .box1{
 	height:340px;
 	background-color:#f0f0f0;
 }
 
-#main .main_box1{
+#m_main .main_box1{
 	position:relative;
 	margin:0 auto;
 	width:1000px;
@@ -150,17 +150,17 @@
 	left:-100px;
 }
 
-#main .about_top{
+#m_main .about_top{
 	padding-top:24px;
 	padding-bottom:16px;
 }
-#main .about_img{
+#m_main .about_img{
 	transition: 0.5s;
 	-moz-transition: 0.5s;
 	-webkit-transition: 0.5s;
 }
 
-#main .aboutme{
+#m_main .aboutme{
 	position:relative;
 	left:100.5px;
     font-size:24px;
@@ -169,7 +169,7 @@
     line-height:32px;
 }
 
-#main .ptjs{
+#m_main .ptjs{
 	position:relative;
     width:333px;
     height:229px;
@@ -185,7 +185,7 @@
 	-webkit-transition: 0.3s;*/
 }
 
-#main .xyld{
+#m_main .xyld{
 	position:absolute;
 	top:72px;
 	left:433.5px;
@@ -197,7 +197,7 @@
     box-shadow:0 16px 16px 0 rgba(0,0,0,0.30);
 }
 
-#main .kytd{
+#m_main .kytd{
 	position:absolute;
 	top:72px;
 	left:766.5px;
@@ -209,31 +209,31 @@
     box-shadow:16px 16px 16px 0 rgba(0,0,0,0.30);
 }
 
-#main .cont_img{
+#m_main .cont_img{
 	width:49px;
 	margin:0 auto;
 	margin-top:70px;
 }
 
-#main .ptjs .cont_img img{
+#m_main .ptjs .cont_img img{
 	position:absolute;
 	top:70px;
 	left:150px;
 }
 
-#main .xyld .cont_img img{
+#m_main .xyld .cont_img img{
 	position:absolute;
 	left:14px;
     top:60px;
 }
 
-#main .kytd .cont_img img{
+#m_main .kytd .cont_img img{
 	position:absolute;
     top:60px;
     left:-385px;
 }
 
-#main .ptjs .cont_title{
+#m_main .ptjs .cont_title{
 	position:absolute;
 	width:80px;
 	top:140px;
@@ -243,7 +243,7 @@
 	padding-bottom:12px;
 }
 
-#main .xyld .cont_title{
+#m_main .xyld .cont_title{
 	position:absolute;
 	width:80px;
 	top:140px;
@@ -253,7 +253,7 @@
 	padding-bottom:12px;
 }
 
-#main .kytd .cont_title{
+#m_main .kytd .cont_title{
 	position:absolute;
 	width:80px;
 	top:140px;
@@ -263,19 +263,19 @@
 	padding-bottom:12px;
 }
 
-#main .cont_title span{
+#m_main .cont_title span{
 	color:#FFFFFF;
 	font-size:20px;
 }
 
-#main .ckxq{
+#m_main .ckxq{
 	width:80px;
 	margin:0 auto;
 	margin-top:16px;
 	display:none;
 }
 
-#main .ptjs .ckxq a{
+#m_main .ptjs .ckxq a{
 	position:absolute;
 	bottom:40px;
 	left:150px;
@@ -285,7 +285,7 @@
 	padding:3px 11px;
 }
 
-#main .xyld .ckxq a{
+#m_main .xyld .ckxq a{
 	position:absolute;
 	bottom:40px;
 	left:145px;
@@ -295,7 +295,7 @@
 	padding:3px 11px;
 }
 
-#main .kytd .ckxq a{
+#m_main .kytd .ckxq a{
 	position:absolute;
 	bottom:40px;
 	left:160px;
@@ -305,12 +305,12 @@
 	padding:3px 11px;
 }
 
-#main .box2{
+#m_main .box2{
 	height:450px;
 	background-color:#f0f0f0;
 }
 
-#main .main_box2{
+#m_main .main_box2{
 	width:1000px;
 	height:420px;
 	top:0px;
@@ -319,7 +319,7 @@
 	
 }
  
-#main .notices{
+#m_main .notices{
 	position:absolute;
 	top:10px;
 	width:470px;
@@ -328,11 +328,11 @@
 	margin-right:15px;
 }
 
-#main .notices dt{
+#m_main .notices dt{
 	border-bottom:2px solid #004EB3;
 }
 
-#main .news{
+#m_main .news{
 	top:10px;
 	right:20px;
 	width:470px;
@@ -341,17 +341,17 @@
 	position:absolute;
 }
 
-#main .news dt{
+#m_main .news dt{
 	border-bottom:2px solid #004EB3;
 }
 
-#main .main_box2 dt{
+#m_main .main_box2 dt{
 line-height:30px;
 letter-spacing:1px;
 margin:10px 0;
 }
 
-#main .main_box2 dt p{
+#m_main .main_box2 dt p{
 	position:absolute;
 	top:8px;
 	left:50px;
@@ -361,7 +361,7 @@ margin:10px 0;
 	color:#004EB3;
 }
 
-#main .main_box2 dd{
+#m_main .main_box2 dd{
 color:#666;
 padding-right:30px;
 border-bottom:1px dashed #b2b2b2;
@@ -371,30 +371,30 @@ position:relative;
 background:url(../img/list_logo.png) 10px center no-repeat;
 }
 
-#main .main_box2 dd a{
+#m_main .main_box2 dd a{
 	position:absolute;
 	left:30px;
 	color:#666;
 }
 
-#main .main_box2  .more{
+#m_main .main_box2  .more{
 	background:none;
 }
 
-#main .main_box2 dd span{
+#m_main .main_box2 dd span{
 	position:absolute;
 	right:20px;
 }
 
-#main .main_box2 dd a:hover{
+#m_main .main_box2 dd a:hover{
 color:#004EB3;
 }
 
-#main .main_box2 .more{
+#m_main .main_box2 .more{
 background:url(../img/more.png) 440px 5px no-repeat;
 }
 
-#main .main_box2 .more span{
+#m_main .main_box2 .more span{
 	position:absolute;
 	left:380px;
 }

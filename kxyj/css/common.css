@@ -1,0 +1,438 @@
+@charset "utf-8";  
+
+/*-------------------------------    -------------------------------------*/
+
+* {
+	margin: 0px;
+	padding: 0px;
+}
+body {
+	font-size: 12px;
+	font-family: 微软雅黑, Microsoft YaHei;
+	height: 100%;
+	color: #333333;
+}
+
+a {
+	color: #333333;
+	text-decoration:none;
+}
+
+img {
+	border: 0px;
+}
+
+/*---------------------------------头部---------------------------------------*/
+
+#top {
+	background-color: #1d50a2;
+}
+
+#top .top_box {
+	margin: 0px auto;
+	width: 1000px;
+	height: 148px;
+	position: relative;
+	background-image: url(../img/top_bg.jpg);
+}
+
+#top .header .logo {
+	position: absolute;
+	top: 20px;
+	left: 11px;
+}
+
+/*修改--忆凡*/
+#top .header .link {
+	position: absolute;
+	right: 80px;
+	top: 10px;
+	color: #ffffff;
+}
+
+#top .header .link a {
+	color: #ffffff;
+}
+
+#top .header .link a:hover {
+	text-decoration: underline;
+}
+
+.btn_phone {
+	display: none;
+}
+
+
+#top .header .search {
+	position: absolute;
+	top: 50px;
+	right: 0px;
+}
+
+#top .header .search .input {
+	width: 177px;
+	height:25px;
+	line-height:25px;
+	border: 1px #11356e solid;
+	padding-left: 3px;
+	position: absolute;
+	right: 69px;
+}
+
+#top .header .search .button {
+	position: absolute;
+	right: 0px;
+	width: 69px;
+	height: 27px;
+	cursor: pointer;
+}
+
+#top .menu {
+	width: 1000px;
+	height: 40px;
+	position: absolute;
+	bottom: 0px;
+	background-color: #f0f0f0;
+}
+
+#top .menu .menu_separator1 {
+	position: absolute;
+	left: 124px;
+}
+#top .menu .menu_separator2 {
+	position: absolute;
+	left: 249px;
+}
+#top .menu .menu_separator3 {
+	position: absolute;
+	left: 374px;
+}
+#top .menu .menu_separator4 {
+	position: absolute;
+	left: 499px;
+}
+#top .menu .menu_separator5 {
+	position: absolute;
+	left: 624px;
+}
+#top .menu .menu_separator6 {
+	position: absolute;
+	left: 749px;
+}
+#top .menu .menu_separator7 {
+	position: absolute;
+	left: 874px;
+}
+
+#top .menu #menu_red_bg {
+	display: none;
+	position: absolute;
+	top: -6px;
+	width: 131px;
+	height: 46px;
+	background-image: url(../img/menu_red.png);
+}
+
+#top .menu .menu_text_box {
+	position: absolute;
+}
+
+#top .menu .menu_text {
+	float: left;
+	height: 40px;
+	width: 125px;
+}
+
+#top .menu .menu_text .text {
+	font-size: 16px;
+	text-align: center;
+	padding-top: 9px;
+}
+
+/*------------------------------------------------------------------------*/
+
+#child_menu {
+	position: absolute;
+	z-index: 999;
+	width: 100%;
+}
+
+#child_menu #banner_shadow {
+	display: none;
+	position: absolute;
+	height: 38px;
+	width: 100%;
+	background-color: #ffffff;
+	opacity: 0.7s; 
+}
+
+#child_menu .child_menu_box {
+	position: relative;
+	margin: 0px auto;
+	width: 1000px;
+	height: 38px;
+}
+
+#child_menu .item {
+	height: 38px;
+	float: left;
+	margin-top: 10px;
+	margin-left: 20px;
+	margin-right: 10px;
+}
+
+#child_menu .item a {
+	color: #444444;
+}
+
+#child_menu a:hover {
+	color: #1d50a2;
+}
+
+#child_menu #child_menu2 {
+	display: none;
+	position: absolute;
+	left: 140px;
+}
+
+#child_menu #child_menu3 {
+	display: none;
+	position: absolute;
+	left: 265px;
+}
+
+#child_menu #child_menu4 {
+	display: none;
+	position: absolute;
+	left: 390px;
+}
+
+#child_menu #child_menu5 {
+	display: none;
+	position: absolute;
+	left: 515px;
+}
+
+#child_menu #child_menu6 {
+	display: none;
+	position: absolute;
+	right: 275px;
+	float: right;
+}
+
+#child_menu #child_menu7 {
+	display: none;
+	position: absolute;
+	right: 150px;
+	float: right;
+}
+
+#child_menu #child_menu8 {
+	display: none;
+	position: absolute;
+	right: 25px;
+	float: right;
+}
+
+/*----------------------------------底部------------------------------------------*/
+
+#banner_pic{
+	overflow:hidden;
+	width:100%;
+	height:154px;
+	background-image: url(../img/banner_bg.gif);
+}
+
+#banner_pic .pic{
+	width:1000px;
+	position:relative;
+	margin:0px auto;
+	overflow: hidden;
+}
+
+#main{
+	position:relative;
+	margin:0px auto;
+	width:1000px;
+	background-color:white;
+}
+
+#main .side_bar{
+	position:absolute;
+	width:200px;
+	height:100%;
+	background-color:#f5f5f5;
+}
+
+#main .side_bar .side_top{
+position:relative;
+width:200px;
+height:104px;
+border-bottom:1px solid #e2e2e2;
+}
+
+#main .side_bar .side_top p{
+	position:absolute;
+	width:140px;
+    height:50px;
+    top:12px;
+    left:60px;
+    font-size:20px;
+    font-weight:bold;
+}
+
+#main .side_bar .side_top .logo{
+	position:absolute;
+	left:25px;
+	top:30px;
+}
+
+#main .side_bar #cur_menu{
+	border-left:5px solid #ae0c2a;
+}
+
+#main .side_bar .side_menu{
+	position:relative;
+	height:60px;
+	border-bottom:1px solid #e2e2e2;
+	font-size:14px;
+	font-weight:bold;
+}
+
+#main .side_bar .side_menu .text{
+	text-align:center;
+	padding-top:20px;
+}
+
+#main .side_bar #cur_menu a{
+	color:#ae0c2a;
+}
+
+#main .navigation{
+	width:750px;
+	height:30px;
+	position:relative;
+	left:250px;
+}
+
+#main .navigation .text{
+	position:absolute;
+	bottom:0px;
+	color:#666666;
+}
+
+#main .navigation .text a{
+    color:#666666;
+}
+
+#footer .bottom {
+	background-color: #c2c2c2;
+	height: 150px;
+}
+
+#footer .bottom_box {
+	width: 1000px;
+	height: 150px;
+	margin: 0px auto;
+	position: relative;
+	background-color: #c2c2c2;
+}
+
+#footer .bottom .hnie {
+	margin-top: 18px;
+	position: absolute;
+	top: 0px;
+	left:70px;
+	border-right: 1px solid #7f7f7f;
+	width:190px;
+	text-align: center;
+}
+
+#footer .bottom .copy_right {
+	padding-top: 30px;
+	position: absolute;
+	top: 0px;
+	left: 350px;
+}
+#footer .bottom .copy_right_cn {
+	padding-top: 55px;
+	position: absolute;
+	top: 0px;
+	left: 350px;
+}
+#footer .bottom .address {
+	padding-top: 80px;
+	position: absolute;
+	top: 0px;
+	left: 350px;
+}
+#footer .bottom .email {
+	padding-top: 105px;
+	position: absolute;
+	top: 0px;
+	left: 350px;
+}
+
+
+#footer .links {
+	background-color: #1d50a2;
+}
+
+#footer .links_box {
+	width: 1000px;
+	height: 40px;
+	margin: 0px auto;
+	bottom:0px;
+	position: relative;
+	background-color: #1d50a2;
+
+}
+#footer .links .quick_link {
+	position: absolute;
+	font-size: 16px;
+	color: #ffffff;
+	top: 10px;
+}
+
+#footer .links .separator {
+	position: absolute;
+	left: 85px;
+}
+
+#footer .links .left_icon {
+	position: absolute;
+	left: 100px;
+	top: 13px;
+	cursor: pointer;
+}
+
+#footer .links .right_icon {
+	position: absolute;
+	right: 0px;
+	top: 13px;
+	cursor: pointer;
+}
+
+#footer .links .link_list {
+	position: absolute;
+	left: 125px;
+	top: 12px;
+	width: 840px;
+	overflow: hidden;
+}
+
+#footer .links .link_list ul {
+	overflow: hidden;
+	position: relative;
+	list-style: none;
+}
+
+#footer .links .link_list ul li {
+	float: left;
+	padding: 0px 5px;
+}
+
+#footer .links .link_list ul li a {
+	color: #ffffff;
+}
+

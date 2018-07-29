@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+<meta name="author" content="王娜 粟阳">
+<title>学院历史-学院简介-湖南工程学院计算机与通信学院</title>
+<link rel="stylesheet" type="text/css" href="../css/common.css">
+<link rel="stylesheet" type="text/css" href="../css/kxyj.css">
+<link rel="stylesheet" type="text/css" href="#">
+    <script type="text/javascript" src="../js/jquery-1.11.1.min.js"></script>
+	<script type="text/javascript" src="../js/menu.js"></script>
+	<script type="text/javascript" src="../js/slide_bar.js"></script>
+	<script type="text/javascript" src="../js/quick_link.js"></script>
+	<script>
+		$(function() {
+			$('.main_top .change a').hover(function() {
+				var id = $(this).index();
+				$(this).addClass('hover').siblings().removeClass('hover');
+				$('.info .top_news:eq(' + id + ')').css('display', 'block').siblings('.top_news').css('display', 'none');
+				$('.info .news_list:eq(' + id + ') ').css('display', 'block').siblings('.news_list').css('display', 'none');
+			});
+		});
+	</script>
+</head>
+<body>
+	<!--头部-->
+	<script type="text/javascript">
+        curMenu = 1;
+        window.onload = displayCurrent;
+        $(function(){
+			$("#search").click(function(){
+				$("#form").submit();
+			});
+			//手机端菜单
+			$(".btn_phone").on("click",function () {
+				if (this.hasClass("close_phone")) {
+					this.removeClass("close_phone");
+					$("#top .menu").animate({
+					},200);
+				} else {
+					_this.addClass("close_phone");
+					$("#top .menu").animate({
+					},200);
+				}
+			});
+        });
+    </script>
+<!--头部-->    
+<div id="top">
+    <div class="top_box">
+<!--顶部-->
+        <div class="header">
+            <div class="logo">
+			    <a href="#">
+				<img src="../img/top_logo.png">
+				</a>
+			</div>
+			<div class="link">
+			<a href="">在线咨询</a>
+			|
+			<a href="">机构设置</a>
+			|
+			<a href="">教师入口</a>
+			</div>
+			<div class="btn_phone"></div>
+			<div class="search">
+			    <form id="form" method="get" action="">
+				  <input id="name" class="input" name="name" type="text" value="输入关键字" onblur="if(this.value==''){this.value='输入关键字';$(this).css('color','#BBBBBB')}" onfocus="if(this.value=='输入关键字'){this.value='';$(this).css('color','#000000')}"
+			      style="color:rgb(187,187,187);">
+				  <img id="search" class="button" src="../img/top_search.png">
+				</form>
+			</div>
+        </div>
+		<!--导航菜单-->
+		<div class="menu">
+		    <div class="menu_separator_box">
+			    <div class="menu_separator1">
+				  <img src="../img/menu_separator.png">
+				</div>
+				<div class="menu_separator2">
+				  <img src="../img/menu_separator.png">
+				</div>
+				<div class="menu_separator3">
+				  <img src="../img/menu_separator.png">
+				</div>
+				<div class="menu_separator4">
+				  <img src="../img/menu_separator.png">
+				</div>
+				<div class="menu_separator5">
+				  <img src="../img/menu_separator.png">
+				</div>
+				<div class="menu_separator6">
+				  <img src="../img/menu_separator.png">
+				</div>
+				<div class="menu_separator7">
+				  <img src="../img/menu_separator.png">
+				</div>
+			</div>	
+			<div id="menu_red_bg" style="display:inline; left:-1;"></div>
+			<div class="menu_text_box">
+				<div class="menu_text" onmouseover="mouseOver(1)" onmouseout="mouseOut(1)">
+					<div class="text">
+						<a id="menu_text1" href="" style="color:rgb(2555,255,255);">网站首页</a>
+				    </div>
+				</div>
+				<div class="menu_text" onmouseover="mouseOver(2)" onmouseout="mouseOut(2)">
+					<div class="text">
+						<a id="menu_text2" href="" style="color:rgb(0,0,0);">关于我们</a>
+				    </div>
+				</div>
+				<div class="menu_text" onmouseover="mouseOver(3)" onmouseout="mouseOut(3)">
+					<div class="text">
+						<a id="menu_text3" href="" style="color:rgb(0,0,0);">实验实训</a>
+					</div>
+				</div>
+				<div class="menu_text" onmouseover="mouseOver(4)" onmouseout="mouseOut(4)">
+					<div class="text">
+						<a id="menu_text4" href="" style="color:rgb(0,0,0);">教务教学</a>
+					</div>
+				</div>
+				<div class="menu_text" onmouseover="mouseOver(5)" onmouseout="mouseOut(5)">
+					<div class="text">
+						<a id="menu_text5" href="" style="color:rgb(0,0,0);">科学研究</a>
+					</div>
+				</div>
+				<div class="menu_text" onmouseover="mouseOver(6)" onmouseout="mouseOut(6)">
+					<div class="text">
+						<a id="menu_text6" href="" style="color:rgb(0,0,0);">学生工作</a>
+					</div>
+				</div>
+				<div class="menu_text" onmouseover="mouseOver(7)" onmouseout="mouseOut(7)">
+					<div class="text">
+						<a id="menu_text7" href="" style="color:rgb(0,0,0);">评建工作</a>
+				    </div>
+				</div>
+				<div class="menu_text" onmouseover="mouseOver(8)" onmouseout="mouseOut(8)">
+					<div class="text">
+						<a id="menu_text8" href="" style="color:rgb(0,0,0);">在线咨询</a>
+					</div>
+				</div>   
+			</div>
+		</div>
+	</div>
+</div>
+		<!--导航子菜单-->
+		<div id="child_menu">
+		    <div id="banner_shadow" style="display:none;" ></div>
+		    <div class="child_menu_box">
+                <div id="child_menu2" onmouseover="menuMouseOver(2)" onmouseout="menuMouseOut(2)" style="display:none;">
+                    <div class="item">
+                	    <a href="#">学院简介</a>
+                    </div>
+                    <div class="item">
+                	    <a href="#">学院领导</a>
+                    </div>
+                    <div class="item">
+                	    <a href="#">师资队伍</a>
+                    </div>
+                    <div class="item">
+                	    <a href="#">学院荣誉</a>
+                    </div>
+                    <div class="item">
+                	    <a href="#">机构设置</a>
+                    </div>
+		        </div>
+		        <div id="child_menu3" onmouseover="menuMouseOver(3)" onmouseout="menuMouseOut(3)" style="display:none;">
+                    <div class="item">
+                	    <a href="#">科研设施</a>
+                    </div>
+                    <div class="item">
+                	    <a href="#">实验室</a>
+                    </div>
+                    <div class="item">
+                	    <a href="#">实习基地</a>
+                    </div>
+                    <div class="item">
+                	    <a href="#">学生实训室</a>
+                    </div>
+                    <div class="item">
+                	    <a href="#">科研|实验|实训活动</a>
+                    </div>
+		        </div>
+		        <div id="child_menu4" onmouseover="menuMouseOver(4)" onmouseout="menuMouseOut(4)" style="display:none;">
+		        
+		        </div>
+		        <div id="child_menu5" onmouseover="menuMouseOver(5)" onmouseout="menuMouseOut(5)" style="display:none;">
+                   
+		        </div>
+		        <div id="child_menu6" onmouseover="menuMouseOver(6)" onmouseout="menuMouseOut(6)" style="display:none;">
+                    <div class="item">
+                	    <a href="#">学工概况</a>
+                    </div>
+                    <div class="item">
+                	    <a href="#">奖助贷勤</a>
+                    </div>
+                    <div class="item">
+                	    <a href="#">学生社团</a>
+                    </div>
+                    <div class="item">
+                	    <a href="#">就业指导</a>
+                    </div>
+                    <div class="item">
+                	    <a href="#">科技创新</a>
+                    </div>
+                    <div class="item">
+                	    <a href="#">团学活动</a>
+                    </div>
+		        </div>
+		        <div id="child_menu7" onmouseover="menuMouseOver(7)" onmouseout="menuMouseOut(7)" style="display:none;">
+                    <div class="item">
+                	    <a href="#">评建工作</a>
+                    </div>
+                    <div class="item">
+                	    <a href="#">新闻动态</a>
+                    </div>
+                    <div class="item">
+                	    <a href="#">通知公告</a>
+                    </div>
+		        </div>
+		        <div id="child_menu8" onmouseover="menuMouseOver(8)" onmouseout="menuMouseOut(8)" style="display:none;">
+                 
+		        </div>
+            </div>
+        </div>
+        <!--图片-->
+        <div id="banner_pic">
+	        <div class="pic">
+	            <img src="../img/banner.jpg">
+	        </div>
+        </div>
+        <!--主体-->
+        <script type="text/javascript" src="side_bar.js"></script>
+        <div id="main">
+            <div class="side_bar">
+                <div class="side_top">
+                	<a class="logo" href="">
+                        <img src="../img/side_logo.png">
+                        <p>
+                    科学研究
+                	</p>
+                	</a>
+                </div>  
+                <div id="cur_menu" class="side_menu">
+                    <div class="text">
+                        <a href="">科研团队|科研设施</a>
+                    </div>
+                </div> 
+                <div class="side_menu">
+                    <div class="text">
+                        <a href="">实验列表</a>
+                    </div>
+                </div> 
+                <div class="side_menu">
+                    <div class="text">
+                        <a href="">科研成果</a>
+                    </div>
+                </div> 
+                <div class="side_menu">
+                    <div class="text">
+                        <a href="">项目列表</a>
+                    </div>
+                </div> 
+            </div>
+
+            <div class="navigation">
+            	<div class="text">
+            		您所在的位置是：
+            		<a href="">湖南工程学院计算机与通信学院</a>
+            		>
+            		<a href="">科学研究</a>
+            		>
+            		<a href="">科研设备</a>
+            	</div>
+            </div>
+            <h1 class="kyss_h1">科研设备</h1>
+            <div class="kyss_content">
+                <h3 style="text-align:center">科研设施</h3>
+                <p> 以校级重点学科为平台，建立了计算机应用技术研究所以及4个研究室，近年来，在国内外学术期刊和学术会议发表科研、教研论文300余篇，其中A类期刊50余篇，三大检索收录100余篇。主、参编规划教材20余本，出版学术著作5部。</p>
+                <p>本一级学科点实验室面积超过3000㎡,实验设备总价值达1400多万元。拥有6个中央与地方共建实验室，1个湖南省示范实验室——网络工程与通信实验中心，与美国惠普网络公司组建了处于国际先进水平的联合实验室（湖南工程学院—惠普网络实验室），成为惠普网络中国地区用户和经销商的技术培训和支持的基地；与思科公司合作成立了思科网络实验室，并对外开展了思科网络工程师培训和认证考试。搭建了计算机与通信课程实践教学和科研平台，建立了学生科技创新活动室、软件工程实训室等。</p>
+                <p>本着“开放 共享，合作 共赢”的理念，本一级学科点重视校企合作和对外交流，成功与湖南电信、长沙卓京信息技术有限公司、长沙普迪、深圳国泰安等10多家企业建立了实习实训教学基地和产学研合作意向，开展产学研合作，并在校外建立了6个长期稳定的实习基地。</p>
+                <br />
+                <table width="636" height="447" cellspacing="0" cellpadding="0" border="1" style="margin: 0 auto;">
+                    <caption>部分专业室验室列表</caption>
+                    <tbody>
+                        <tr>
+                            <td width="150" height="20" align="center">实验室名称</td>
+                            <td width="329" height="20" align="center">仪器设备名称、型号、规格</td>
+                            <td width="173" height="20" align="center">仪器设备值（万元）</td>
+                        </tr>
+                        <tr>
+                            <td  height="30" colspan="3"></td>
+                        </tr>
+                        <tr>
+                            <td width="150" height="20" rowspan="7" align="center">计算机科学与技术专业实验中心</td>
+                            <td width="329" height="20" align="center">服务器</td>
+                            <td width="173" height="20" align="center"></td>
+                        </tr>
+                        <tr>
+                            <td width="329" height="20" align="center">仪器设备名称、型号、规格</td>
+                            <td width="173" height="20" align="center">22</td>
+                        </tr>
+                        <tr>
+                            <td width="329" height="20" align="center">仪器设备名称、型号、规格</td>
+                            <td width="173" height="20" align="center">22</td>
+                        </tr>
+                        <tr>
+                            <td width="329" height="20" align="center">仪器设备名称、型号、规格</td>
+                            <td width="173" height="20" align="center">22</td>
+                        </tr>
+                        <tr>
+                            <td width="329" height="20" align="center">仪器设备名称、型号、规格</td>
+                            <td width="173" height="20" align="center">22</td>
+                        </tr>
+                        <tr>
+                            <td width="329" height="20" align="center">仪器设备名称、型号、规格</td>
+                            <td width="173" height="20" align="center">22</td>
+                        </tr>
+                        <tr>
+                            <td width="329" height="20 align="center"仪器设备名称、型号、规格</td>
+                            <td width="173" height="20" align="center">22</td>
+                        </tr>
+                        <tr>
+                            <td  height="30" colspan="3"></td>
+                        </tr>
+                        <tr>
+                            <td width="150" height="20" rowspan="3" align="center">网络工程专业实验教学中心</td>
+                            <td width="329" height="20" align="center">仪器设备名称、型号、规格</td>
+                            <td width="173" height="20" align="center">11</td>
+                        </tr>
+                        <tr>
+                            <td width="329" height="20" align="center">仪器设备名称、型号、规格</td>
+                            <td width="173" height="20" align="center">11</td>
+                        </tr>
+                        <tr>
+                            <td width="329" height="20" align="center">仪器设备名称、型号、规格</td>
+                            <td width="173" height="20" align="center">11</td>
+                        </tr>
+                        <tr>
+                            <td  height="30" colspan="3"></td>
+                        </tr>
+                        <tr>
+                            <td width="150" height="20" rowspan="8" align="center">通信技术与通信网络实验中心</td>
+                            <td width="329" height="20" align="center">仪器设备名称、型号、规格</td>
+                            <td width="173" height="20" align="center">33</td>
+                        </tr>
+                        <tr>
+                            <td width="329" height="20" align="center">仪器设备名称、型号、规格</td>
+                            <td width="173" height="20" align="center">33</td>
+                        </tr>
+                        <tr>
+                            <td width="329" height="20" align="center">仪器设备名称、型号、规格</td>
+                            <td width="173" height="20" align="center">33</td>
+                        </tr>
+                        <tr>
+                            <td width="329" height="20" align="center">仪器设备名称、型号、规格</td>
+                            <td width="173" height="20" align="center">33</td>
+                        </tr>
+                        <tr>
+                            <td width="329" height="20" align="center">仪器设备名称、型号、规格</td>
+                            <td width="173" height="20" align="center">33</td>
+                        </tr>
+                        <tr>
+                            <td width="329" height="20" align="center">仪器设备名称、型号、规格</td>
+                            <td width="173" height="20" align="center">33</td>
+                        </tr>
+                        <tr>
+                            <td width="329" height="20" align="center">仪器设备名称、型号、规格</td>
+                            <td width="173" height="20" align="center">33</td>
+                        </tr>
+                        <tr>
+                            <td width="329" height="20" align="center">仪器设备名称、型号、规格</td>
+                            <td width="173" height="20" align="center">33</td>
+                        </tr>
+                        <tr>
+                            <td  height="30" colspan="3" align="center"></td>
+                        </tr>
+                        <tr>
+                            <td width="150" height="20" rowspan="2" align="center">通信技术与通信网络实验中心</td>
+                            <td width="329" height="20" align="center">仪器设备名称、型号、规格</td>
+                            <td width="173" height="20" align="center">44</td>
+                        </tr>
+                        <tr>
+                            <td width="329" height="20" align="center">仪器设备名称、型号、规格</td>
+                            <td width="173" height="20" align="center">44</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        <!--底部-->
+        <div id="footer">
+        	<div class="bottom">
+        		<div class="bottom_box">
+                    <div class="hnie">
+                    	<div style="width:100px;">
+                           <img src="../img/hnie.png" style="width:95px;margin-bottom:10px"><p style="font-weight:bold;">
+                           <a href="http://www.hnie.edu.cn/">湖南工程学院主页</a></p>
+                    	</div>
+                    </div>
+                    <div class="copy_right">
+                    Copyright © 2002-2017 计算机与通信学院 版权所有</div>
+                    <div class="copy_right_cn">湖南工程学院计算机与通信学院</div>
+                    <div class="address">地址：湘潭市岳塘区福星东路88号</div>
+                    <div class="email">邮编：******</div>
+        		</div>
+        	</div>
+        </div>
+	</div>
+    <script type="text/javascript" src="../js/side_bar.js"></script>
+    </body>
+</html>

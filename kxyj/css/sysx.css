@@ -1,0 +1,282 @@
+#main .sysx_h1{
+position:relative;
+left:250px;
+width:750px;
+text-align:center;
+font-size:20px;
+margin:50px 0;
+}
+
+#main .sysx_content{
+	position:relative;
+	border-top:1px solid #dcdcdc;
+	left:250px;
+	width:750px;
+	overflow:hidden;
+	padding-top:20px;
+	padding-bottom:50px;
+
+}
+
+#main .sysx_content .pic_box{
+	position:relative;
+	width:230px;
+	height:200px;
+	left:0px;
+	float:left;
+	margin-right:20px;
+	margin-bottom:0px;
+	
+}
+
+#main .sysx_content .box{
+   position:relative;
+    margin:0px auto;
+	width:230px;
+	height:160px;	
+	top:20px;
+	transition: 0.5s;
+	-moz-transition: 0.5s;
+	-webkit-transition: 0.5s;
+}
+
+#main .sysx_content .pic{
+	width:210px;
+	height:154px;
+	margin-top:10px;
+}
+
+#main .sysx_content .pic img{
+	box-shadow: 8px 8px 12px 0 rgba(0,0,0,0.60);
+}
+#main .sysx_content .pic_title{
+	position:relative;
+	width:210px;
+	height:20px;
+	top:10px;
+	font-size:16px;
+	margin:0px auto;
+	text-align:center;
+	padding-top:0px;
+
+}
+
+#main .sysx_content .pic_title a{
+	font-size:14px;
+}
+
+#main .sysx_content .page_box{
+	clear:both;
+	padding:50px 0px;
+	position:relative;
+	height:24px;
+	font-size:12px;
+}
+
+#main .sysx_content .pre{
+	height:22px;
+	width:65px;
+	border:1px solid #cacaca;
+}
+
+#main .sysx_content .pre .img{
+	position:absolute;
+	top:4px;
+	left:8px;
+}
+
+#main .sysx_content .pre .text{
+	position:absolute;
+	top:3px;
+	left:20px;
+}
+
+#main .sysx_content .active{
+	background-color:#1d50a2;
+	color:#fff;
+}
+
+#main .sysx_content .active a{
+	color:#fff;
+}
+
+#main .sysx_content .page{
+	height:22px;
+	width:22px;
+	border:1px solid #cacaca;
+	margin-left:6px;
+	text-align:center;
+	line-height:22px;
+}
+
+#main .sysx_content .next{
+	margin-left:6px;
+	height:22px;
+	width:65px;
+	border:1px solid #cacaca;
+}
+
+#main .sysx_content .next .text{
+	position:absolute;
+	top:3px;
+	right:20px;
+}
+
+#main .sysx_content .next a{
+	color:#1d50a2;
+}
+
+#main .sysx_content .next .img{
+	position:absolute;
+	top:4px;
+	right:8px;
+}
+
+#main .sysx_content .page_box div{
+	float:left;
+	height:24px;
+	position:relative;
+}
+
+/*--------------------------实验实训分页--------------------------*/
+
+#main .sysx1_h1{
+position:relative;
+left:250px;
+width:750px;
+text-align:center;
+font-size:20px;
+margin:50px 0;
+}
+
+#main .sysx1_content{
+	position:relative;
+	border-top:1px solid #dcdcdc;
+	left:250px;
+	width:750px;
+	overflow:hidden;
+	padding-top:20px;
+	padding-bottom:100px;
+
+}
+
+#main .sysx1_content .pic_box{
+	position:relative;
+	width:230px;
+	height:200px;
+	left:0px;
+	float:left;
+	margin-right:20px;
+	margin-bottom:0px;
+	
+}
+
+#main .sysx1_content .box{
+   position:relative;
+    margin:0px auto;
+	width:230px;
+	height:160px;	
+	top:20px;
+	transition: 0.5s;
+	-moz-transition: 0.5s;
+	-webkit-transition: 0.5s;
+}
+
+#main .sysx1_content .pic{
+	width:210px;
+	height:154px;
+	margin-top:10px;
+}
+
+#main .sysx1_content .pic img{
+	box-shadow: 8px 8px 12px 0 rgba(0,0,0,0.60);
+}
+#main .sysx1_content .pic_title{
+	position:relative;
+	width:210px;
+	height:20px;
+	top:10px;
+	font-size:16px;
+	margin:0px auto;
+	text-align:center;
+	padding-top:0px;
+
+}
+
+#main .sysx1_content .pic_title a{
+	font-size:14px;
+}
+
+#main .sysx1_content .page_box{
+	clear:both;
+	padding:50px 0px;
+	position:relative;
+	height:24px;
+	font-size:12px;
+}
+
+#main .sysx1_content .pre{
+	height:22px;
+	width:65px;
+	border:1px solid #cacaca;
+}
+
+#main .sysx1_content .pre .img{
+	position:absolute;
+	top:4px;
+	left:8px;
+}
+
+#main .sysx1_content .pre .text{
+	position:absolute;
+	top:3px;
+	left:20px;
+}
+
+#main .sysx1_content .active{
+	background-color:#1d50a2;
+	color:#fff;
+}
+
+#main .sysx1_content .active a{
+	color:#fff;
+}
+
+#main .sysx1_content .page{
+	height:22px;
+	width:22px;
+	border:1px solid #cacaca;
+	margin-left:6px;
+	text-align:center;
+	line-height:22px;
+}
+
+#main .sysx1_content .next{
+	margin-left:6px;
+	height:22px;
+	width:65px;
+	border:1px solid #cacaca;
+}
+
+#main .sysx1_content .next .text{
+	position:absolute;
+	top:3px;
+	right:20px;
+}
+
+#main .sysx1_content .next a{
+	color:#1d50a2;
+}
+
+#main .sysx1_content .next .img{
+	position:absolute;
+	top:4px;
+	right:8px;
+}
+
+#main .sysx1_content .page_box div{
+	float:left;
+	height:24px;
+	position:relative;
+}
+

@@ -7,7 +7,7 @@ function mouseOver(i) {
 	obj.style.left=x+"px";
 	obj.style.display = "inline";
 
-	if (i != 1&&i !=4&&i !=5 &&i !=8) {
+	if (i != 1&&i !=4&&i !=8) {
 		document.getElementById("banner_shadow").style.display="inline";
 		document.getElementById("child_menu"+i).style.display="inline";
 	}
@@ -16,7 +16,7 @@ function mouseOver(i) {
 function mouseOut(i) {
 	document.getElementById("menu_text"+i).style.color="#000000";
 	document.getElementById("menu_red_bg").style.display="none";
-	if (i != 1&&i !=4&&i !=5 &&i !=8) {
+	if (i != 1&&i !=4&&i !=8) {
 		document.getElementById('banner_shadow').style.display="none";
 		document.getElementById("child_menu"+i).style.display="none";
 	}
